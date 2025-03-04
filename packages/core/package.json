@@ -14,19 +14,17 @@
       "development": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
-      "default": "./src/index.ts"
+      "require": "./dist/index.cjs"
     },
     "./machines": {
       "development": "./src/machines/index.ts",
       "types": "./dist/machines/index.d.ts",
       "import": "./dist/machines/index.js",
-      "require": "./dist/machines/index.cjs",
-      "default": "./src/machines/index.ts"
+      "require": "./dist/machines/index.cjs"
     }
   },
   "scripts": {
-    "dev": "tsx src/index.ts",
+    "dev": "NODE_OPTIONS=\"--conditions=development\" tsx src/index.ts",
     "build": "tsup"
   },
   "devDependencies": {

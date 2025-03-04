@@ -14,13 +14,15 @@
       "development": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
-      "default": "./src/index.ts"
+      "require": "./dist/index.cjs"
     }
   },
   "scripts": {
-    "dev": "tsx src/index.ts",
+    "dev": "NODE_OPTIONS=\"--conditions=development\" tsx src/index.ts",
     "build": "tsup"
+  },
+  "dependencies": {
+    "@picpico-labs/bifrost-core": "workspace:*"
   },
   "devDependencies": {
     "tsup": "catalog:",

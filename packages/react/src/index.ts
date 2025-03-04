@@ -1,3 +1,5 @@
+import { core } from '@picpico-labs/bifrost-core';
+
 export function useBifrost() {
-  return 'hello from react';
+  return core().replace('core', 'react');
 }

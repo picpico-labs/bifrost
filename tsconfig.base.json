@@ -14,7 +14,11 @@
     /* Completeness */
     "skipLibCheck": true,
 
-    "composite": true,
-    "preserveSymlinks": true
+    "baseUrl": ".",
+    "paths": {
+      "@picpico-labs/bifrost-core": ["./packages/core/src"],
+      "@picpico-labs/bifrost-core/*": ["./packages/core/src/*"],
+      "@picpico-labs/bifrost-react": ["./packages/react/src"]
+    }
   }
 }

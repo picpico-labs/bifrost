@@ -98,6 +98,10 @@ importers:
         version: 5.8.2
 
   packages/react:
+    dependencies:
+      '@picpico-labs/bifrost-core':
+        specifier: workspace:*
+        version: link:../core
     devDependencies:
       tsup:
         specifier: 'catalog:'
