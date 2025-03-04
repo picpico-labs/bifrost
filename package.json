@@ -1,0 +1,21 @@
+{
+  "private": "true",
+  "type": "module",
+  "packageManager": "pnpm@10.5.2",
+  "author": "Wonhee Lee",
+  "license": "MIT",
+  "scripts": {
+    "build:packages": "pnpm --filter \"@picpico-labs/*\" build",
+    "build:demo": "pnpm --filter \"demo\" build",
+    "build": "pnpm build:packages && pnpm build:demo",
+    "test": "pnpm -r --sequential run test run",
+    "test:coverage": "pnpm -r --sequential run test:coverage",
+    "dev": "pnpm --filter \"demo\" dev",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "catalog:",
+    "typescript": "catalog:",
+    "tsx": "catalog:"
+  }
+}

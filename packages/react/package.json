@@ -1,0 +1,30 @@
+{
+  "packageManager": "pnpm@10.5.2",
+  "name": "@picpico-labs/bifrost-react",
+  "version": "0.1.0",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "development": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "catalog:",
+    "typescript": "catalog:",
+    "tsx": "catalog:"
+  }
+}
