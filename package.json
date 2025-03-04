@@ -4,6 +4,9 @@
   "packageManager": "pnpm@10.5.2",
   "author": "Wonhee Lee",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.20.3"
+  },
   "scripts": {
     "build:packages": "pnpm --filter \"@picpico-labs/*\" build",
     "build:demo": "pnpm --filter \"demo\" build",
