@@ -13,11 +13,13 @@
     "dev": "pnpm turbo run dev --filter=demo",
     "preview": "pnpm turbo run preview --filter=demo",
     "check-types": "pnpm turbo run check-types",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "bump": "taze -r -w && pnpm install"
   },
   "devDependencies": {
     "prettier": "catalog:",
     "typescript": "catalog:",
-    "turbo": "catalog:"
+    "turbo": "catalog:",
+    "taze": "^19.0.4"
   }
 }
