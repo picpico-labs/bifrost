@@ -6,4 +6,5 @@ export default defineConfig({
   dts: true,
   clean: true,
   treeshake: true,
+  tsconfig: 'tsconfig.prod.json',
 });

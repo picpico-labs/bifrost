@@ -25,7 +25,8 @@
   },
   "scripts": {
     "dev": "NODE_OPTIONS=\"--conditions=development\" tsx src/index.ts",
-    "build": "tsup"
+    "build": "tsup",
+    "check-types": "tsc -p tsconfig.prod.json"
   },
   "devDependencies": {
     "tsup": "catalog:",

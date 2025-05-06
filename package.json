@@ -8,15 +8,16 @@
     "node": ">=18.20.3"
   },
   "scripts": {
-    "build:packages": "pnpm --filter \"@picpico-labs/*\" build",
-    "build:demo": "pnpm --filter \"demo\" build",
-    "build": "pnpm build:packages && pnpm build:demo",
-    "dev": "pnpm --filter \"demo\" dev",
-    "preview": "pnpm --filter \"demo\" preview",
+    "ci": "pnpm build && pnpm check-types",
+    "build": "pnpm turbo run build",
+    "dev": "pnpm turbo run dev --filter=demo",
+    "preview": "pnpm turbo run preview --filter=demo",
+    "check-types": "pnpm turbo run check-types",
     "format": "prettier --write ."
   },
   "devDependencies": {
     "prettier": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "turbo": "catalog:"
   }
 }
