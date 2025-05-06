@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "NODE_OPTIONS=\"--conditions=development\" vite",
+    "check-types": "tsc -p tsconfig.typecheck.json",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "packageManager": "pnpm@10.5.2",
   "dependencies": {
     "@picpico-labs/bifrost-core": "workspace:*",
     "@picpico-labs/bifrost-react": "workspace:*",
