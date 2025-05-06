@@ -15,8 +15,7 @@
     "check-types": "pnpm turbo run check-types",
     "format": "prettier --write .",
     "bump": "taze -r -w && pnpm install",
-    "lint": "biome check .",
-    "lint:fix": "biome check --apply ."
+    "lint": "biome check --write"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
