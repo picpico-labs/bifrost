@@ -1,5 +1,5 @@
 {
-  "packageManager": "pnpm@10.5.2",
+  "packageManager": "pnpm@10.10.0",
   "name": "@picpico-labs/bifrost-core",
   "version": "0.1.0",
   "files": [
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "tsup": "catalog:",
-    "typescript": "catalog:",
-    "tsx": "catalog:"
+    "tsx": "catalog:",
+    "typescript": "catalog:"
   }
 }
