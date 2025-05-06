@@ -1,1 +1,1 @@
-export const machines = () => 'machines';
+export const machines = () => "machines";

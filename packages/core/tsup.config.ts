@@ -1,10 +1,10 @@
-import { defineConfig } from 'tsup';
+import { defineConfig } from "tsup";
 
 export default defineConfig({
-  entry: ['src/index.ts', 'src/machines/index.ts'],
-  format: ['cjs', 'esm'],
+  entry: ["src/index.ts", "src/machines/index.ts"],
+  format: ["cjs", "esm"],
   dts: true,
   clean: true,
   treeshake: true,
-  tsconfig: 'tsconfig.prod.json',
+  tsconfig: "tsconfig.prod.json",
 });
