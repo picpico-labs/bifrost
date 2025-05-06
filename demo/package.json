@@ -8,7 +8,8 @@
     "dev": "NODE_OPTIONS=\"--conditions=development\" vite",
     "check-types": "tsc -p tsconfig.typecheck.json",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "biome check --write"
   },
   "dependencies": {
     "@picpico-labs/bifrost-core": "workspace:*",

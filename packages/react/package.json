@@ -20,7 +20,8 @@
   "scripts": {
     "dev": "NODE_OPTIONS=\"--conditions=development\" tsx src/index.ts",
     "build": "tsup",
-    "check-types": "tsc -p tsconfig.prod.json"
+    "check-types": "tsc -p tsconfig.prod.json",
+    "lint": "biome check --write"
   },
   "dependencies": {
     "@picpico-labs/bifrost-core": "workspace:*"

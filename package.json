@@ -14,9 +14,12 @@
     "preview": "pnpm turbo run preview --filter=demo",
     "check-types": "pnpm turbo run check-types",
     "format": "prettier --write .",
-    "bump": "taze -r -w && pnpm install"
+    "bump": "taze -r -w && pnpm install",
+    "lint": "biome check .",
+    "lint:fix": "biome check --apply ."
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "prettier": "catalog:",
     "taze": "^19.0.4",
     "turbo": "catalog:",
