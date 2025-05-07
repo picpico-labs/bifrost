@@ -7,10 +7,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": [
-      "node_modules/**",
-      "dist/**"
-    ]
+    "ignore": ["pnpm-lock.yaml", "node_modules/**", "dist/**"]
   },
   "formatter": {
     "enabled": true,

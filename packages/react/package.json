@@ -2,9 +2,7 @@
   "packageManager": "pnpm@10.10.0",
   "name": "@picpico-labs/bifrost-react",
   "version": "0.1.0",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
