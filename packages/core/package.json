@@ -2,9 +2,7 @@
   "packageManager": "pnpm@10.10.0",
   "name": "@picpico-labs/bifrost-core",
   "version": "0.1.0",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -26,7 +24,8 @@
   "scripts": {
     "dev": "NODE_OPTIONS=\"--conditions=development\" tsx src/index.ts",
     "build": "tsup",
-    "check-types": "tsc -p tsconfig.prod.json"
+    "check-types": "tsc -p tsconfig.prod.json",
+    "lint": "biome check --write"
   },
   "devDependencies": {
     "tsup": "catalog:",

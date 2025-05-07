@@ -1,6 +1,6 @@
-import { core } from '@picpico-labs/bifrost-core';
-import { machines } from '@picpico-labs/bifrost-core/machines';
-import { useBifrost } from '@picpico-labs/bifrost-react';
+import { core } from "@picpico-labs/bifrost-core";
+import { machines } from "@picpico-labs/bifrost-core/machines";
+import { useBifrost } from "@picpico-labs/bifrost-react";
 
 function App() {
   return (
