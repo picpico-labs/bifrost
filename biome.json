@@ -7,7 +7,10 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": ["package.json", "node_modules/**", "dist/**"]
+    "ignore": [
+      "node_modules/**",
+      "dist/**"
+    ]
   },
   "formatter": {
     "enabled": true,
@@ -23,7 +26,7 @@
     "rules": {
       "recommended": true,
       "suspicious": {
-        "noExplicitAny": "off"
+        "noExplicitAny": "error"
       },
       "complexity": {
         "noBannedTypes": "off"
