@@ -9,11 +9,11 @@ export const Test = () => {
       <h3>State: {state}</h3>
       <h3>Context:</h3>
       <div>
-        {JSON.stringify(context)
-          .split(',')
-          .map(r => (
-            <h4 key={r}>{r}</h4>
-          ))}
+        {Object.entries(context).map(([key, value]) => (
+          <h4 key={key}>
+            {key}: {JSON.stringify(value)}
+          </h4>
+        ))}
       </div>
 
       <h3>Actions:</h3>
