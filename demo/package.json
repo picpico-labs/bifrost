@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@picpico-labs/bifrost-core": "workspace:*",
+    "@picpico-labs/bifrost-platforms": "workspace:*",
     "@picpico-labs/bifrost-react": "workspace:*",
     "react": "catalog:",
     "react-dom": "catalog:"

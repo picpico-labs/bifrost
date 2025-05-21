@@ -12,3 +12,4 @@ catalog:
   globals: '^16.1.0'
   react: '^19.1.0'
   react-dom: '^19.1.0'
+  xstate: '^5.19.3'
