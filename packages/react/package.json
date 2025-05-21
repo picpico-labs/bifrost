@@ -24,9 +24,14 @@
     "lint": "biome check --write"
   },
   "dependencies": {
-    "@picpico-labs/bifrost-core": "workspace:*"
+    "@picpico-labs/bifrost-core": "workspace:*",
+    "@xstate/react": "^5.0.4",
+    "react": "catalog:",
+    "react-dom": "catalog:"
   },
   "devDependencies": {
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
     "tsup": "catalog:",
     "tsx": "catalog:",
     "typescript": "catalog:"
