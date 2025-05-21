@@ -1,5 +1,10 @@
 {
   "extends": "./tsconfig.base.json",
   "files": [],
-  "references": [{ "path": "./packages/core" }, { "path": "./packages/react" }, { "path": "./demo" }]
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/react" },
+    { "path": "./packages/platforms" },
+    { "path": "./demo" }
+  ]
 }

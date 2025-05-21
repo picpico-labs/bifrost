@@ -1,8 +1,10 @@
 {
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.11.0",
   "name": "@picpico-labs/bifrost-core",
   "version": "0.1.0",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -19,6 +21,18 @@
       "types": "./dist/machines/index.d.ts",
       "import": "./dist/machines/index.js",
       "require": "./dist/machines/index.cjs"
+    },
+    "./adapters": {
+      "development": "./src/adapters/index.ts",
+      "types": "./dist/adapters/index.d.ts",
+      "import": "./dist/adapters/index.js",
+      "require": "./dist/adapters/index.cjs"
+    },
+    "./lib": {
+      "development": "./src/lib/index.ts",
+      "types": "./dist/lib/index.d.ts",
+      "import": "./dist/lib/index.js",
+      "require": "./dist/lib/index.cjs"
     }
   },
   "scripts": {

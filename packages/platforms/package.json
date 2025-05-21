@@ -1,6 +1,6 @@
 {
   "packageManager": "pnpm@10.11.0",
-  "name": "@picpico-labs/bifrost-react",
+  "name": "@picpico-labs/bifrost-platforms",
   "version": "0.1.0",
   "files": [
     "dist"
@@ -20,11 +20,10 @@
   "scripts": {
     "dev": "NODE_OPTIONS=\"--conditions=development\" tsx src/index.ts",
     "build": "tsup",
-    "check-types": "tsc -p tsconfig.prod.json",
-    "lint": "biome check --write"
+    "check-types": "tsc -p tsconfig.prod.json"
   },
   "dependencies": {
-    "@picpico-labs/bifrost-core": "workspace:*"
+    "@picpico-labs/bifrost-core": "workspace:"
   },
   "devDependencies": {
     "tsup": "catalog:",
