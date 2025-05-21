@@ -1,7 +1,7 @@
 {
   "private": "true",
   "type": "module",
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.11.0",
   "author": "Wonhee Lee",
   "license": "MIT",
   "engines": {
@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "taze": "^19.0.4",
-    "turbo": "catalog:",
+    "taze": "^19.1.0",
+    "turbo": "^2.5.3",
     "typescript": "catalog:"
   }
 }
