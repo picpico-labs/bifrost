@@ -56,9 +56,9 @@ importers:
 
   demo:
     dependencies:
-      '@picpico-labs/bifrost-core':
+      '@picpico-labs/bifrost-platforms':
         specifier: workspace:*
-        version: link:../packages/core
+        version: link:../packages/platforms
       '@picpico-labs/bifrost-react':
         specifier: workspace:*
         version: link:../packages/react
