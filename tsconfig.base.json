@@ -18,6 +18,7 @@
     "paths": {
       "@picpico-labs/bifrost-core": ["./packages/core/src"],
       "@picpico-labs/bifrost-core/*": ["./packages/core/src/*"],
+      "@picpico-labs/bifrost-platforms": ["./packages/platforms/src"],
       "@picpico-labs/bifrost-react": ["./packages/react/src"]
     }
   }

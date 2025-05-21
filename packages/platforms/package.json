@@ -1,0 +1,33 @@
+{
+  "packageManager": "pnpm@10.11.0",
+  "name": "@picpico-labs/bifrost-platforms",
+  "version": "0.1.0",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "development": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "NODE_OPTIONS=\"--conditions=development\" tsx src/index.ts",
+    "build": "tsup",
+    "check-types": "tsc -p tsconfig.prod.json"
+  },
+  "dependencies": {
+    "@picpico-labs/bifrost-core": "workspace:"
+  },
+  "devDependencies": {
+    "tsup": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:"
+  }
+}
