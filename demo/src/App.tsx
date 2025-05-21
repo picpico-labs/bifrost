@@ -3,7 +3,7 @@ import { BrowserAdapter } from '@picpico-labs/bifrost-platforms';
 
 import { Test } from './Test';
 
-const JANUS_URL = 'ws://localhost:8188/janus';
+const JANUS_URL = 'wss://janus.conf.meetecho.com/ws';
 const adapter = new BrowserAdapter();
 
 initBifrost({
