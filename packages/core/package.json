@@ -41,6 +41,9 @@
     "check-types": "tsc -p tsconfig.prod.json",
     "lint": "biome check --write"
   },
+  "dependencies": {
+    "xstate": "^5.19.3"
+  },
   "devDependencies": {
     "tsup": "catalog:",
     "tsx": "catalog:",
