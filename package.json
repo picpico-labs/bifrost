@@ -9,6 +9,7 @@
   },
   "scripts": {
     "ci": "pnpm build && pnpm check-types",
+    "release": "changeset publish",
     "build": "pnpm turbo run build",
     "dev": "pnpm turbo run dev --filter=demo",
     "preview": "pnpm turbo run preview --filter=demo",
