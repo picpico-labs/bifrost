@@ -10,25 +10,12 @@ jobs:
   ci:
     name: Build and Test
     runs-on: [ubuntu-latest]
-    strategy:
-      matrix:
-        node-version: [22.14]
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          run_install: false
+      - name: Setup CI
+        uses: ./.github/actions/ci-setup
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
-
-      - name: Package install
-        run: pnpm install
-
-      - name: CI
+      - name: Check CI
         run: pnpm run ci
