@@ -4,7 +4,7 @@
   "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "github.com/picpico-labs/bifrost"
+    "url": "https://github.com/picpico-labs/bifrost"
   },
   "files": [
     "dist"

@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "github.com/picpico-labs/bifrost"
+    "url": "https://github.com/picpico-labs/bifrost"
   },
   "engines": {
     "node": ">=18.20.3"
