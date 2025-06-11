@@ -1,4 +1,4 @@
-import { BifrostEngine, createBifrostMachine, WebRTCAdapter } from '@picpico-labs/bifrost-core';
+import { BifrostEngine, createBifrostMachine, type WebRTCAdapter } from '@picpico-labs/bifrost-core';
 import { createActorContext } from '@xstate/react';
 
 interface Props {
