@@ -2,7 +2,7 @@
   "packageManager": "pnpm@10.12.1",
   "name": "demo",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "dev": "NODE_OPTIONS=\"--conditions=development\" vite",
