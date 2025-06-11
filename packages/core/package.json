@@ -35,6 +35,30 @@
       "require": "./dist/lib/index.cjs"
     }
   },
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js",
+        "require": "./dist/index.cjs"
+      },
+      "./machines": {
+        "types": "./dist/machines/index.d.ts",
+        "import": "./dist/machines/index.js",
+        "require": "./dist/machines/index.cjs"
+      },
+      "./adapters": {
+        "types": "./dist/adapters/index.d.ts",
+        "import": "./dist/adapters/index.js",
+        "require": "./dist/adapters/index.cjs"
+      },
+      "./lib": {
+        "types": "./dist/lib/index.d.ts",
+        "import": "./dist/lib/index.js",
+        "require": "./dist/lib/index.cjs"
+      }
+    }
+  },
   "scripts": {
     "dev": "NODE_OPTIONS=\"--conditions=development\" tsx src/index.ts",
     "build": "tsup",
