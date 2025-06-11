@@ -1,5 +1,5 @@
 {
-  "packageManager": "pnpm@10.11.0",
+  "packageManager": "pnpm@10.12.1",
   "name": "@picpico-labs/bifrost-react",
   "version": "0.1.0",
   "files": [
@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@picpico-labs/bifrost-core": "workspace:*",
-    "@xstate/react": "^5.0.4",
+    "@xstate/react": "^5.0.5",
     "react": "catalog:",
     "react-dom": "catalog:"
   },

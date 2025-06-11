@@ -2,13 +2,13 @@ packages:
   - 'packages/*'
   - 'demo'
 catalog:
-  '@types/react': '^19.1.4'
-  '@types/react-dom': '^19.1.5'
-  '@vitejs/plugin-react': '^4.4.1'
-  tsx: ^4.19.4
+  '@types/react': '^19.1.8'
+  '@types/react-dom': '^19.1.6'
+  '@vitejs/plugin-react': '^4.5.2'
+  tsx: ^4.20.1
   tsup: ^8.5.0
   typescript: ^5.8.3
   vite: ^6.3.5
-  globals: '^16.1.0'
+  globals: '^16.2.0'
   react: '^19.1.0'
   react-dom: '^19.1.0'
